@@ -1,6 +1,6 @@
 # Random Tokyo Station
 
-Show a random station located in Tokyo.
+Get a random station located in Tokyo.
 
 https://sudame.github.io/random-tokyo-station
 
