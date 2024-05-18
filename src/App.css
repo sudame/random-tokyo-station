@@ -1,0 +1,43 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.stationName {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.googleMap {
+  text-align: center;
+}
+
+.changeStation {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeStation button {
+  border: 1px solid #333333;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.changeStation button:active {
+  border: 1px solid #888888;
+  background-color: #eeeeee;
+}
