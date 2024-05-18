@@ -32,7 +32,7 @@ export function App(): ReactElement {
       </div>
       <div className="googleMap">
         <a
-          href={`https://google.com/maps/search/${stationView.name}駅`}
+          href={`https://www.google.com/maps/search/?api=1&query=${stationView.name}駅`}
           target="_blank"
           rel="noreferrer noopener"
         >
